@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.usercentrics.sdk:usercentrics-ui:2.5.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7bce2edb87f74eb2073753a0d838573a/transformed/jetified-usercentrics-ui-2.5.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7bce2edb87f74eb2073753a0d838573a/transformed/jetified-usercentrics-ui-2.5.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7bce2edb87f74eb2073753a0d838573a/transformed/jetified-usercentrics-ui-2.5.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
