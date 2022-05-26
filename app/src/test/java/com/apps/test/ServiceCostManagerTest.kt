@@ -1,6 +1,6 @@
 package com.apps.test
 
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 import com.apps.test.domain.model.ServiceCostModel
 import com.apps.test.fake.FakeCostPresenter
 import com.apps.test.fake.FakeRetrieveCostService
@@ -22,7 +22,7 @@ internal class ServiceCostManagerTest{
         """.trimIndent(), 10
         )
 
-        val cost = CostsModel(
+        val cost = ServicesCostModel(
             listOf(
                 ServiceCostModel(
                     "Facebook",

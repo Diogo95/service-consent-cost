@@ -1,7 +1,7 @@
 package com.apps.test.presenter
 
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 
 interface BaseConverter {
-    fun convertCost(costs: CostsModel): CostPresenter
+    fun convertCost(costs: ServicesCostModel): CostPresenter
 }

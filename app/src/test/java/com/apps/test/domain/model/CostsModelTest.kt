@@ -9,7 +9,7 @@ internal class CostsModelTest{
     @Test
     fun`retrieves the total cost of the services`(){
         val expected = 8
-        val costs = CostsModel(
+        val costs = ServicesCostModel(
             listOf(
                 ServiceCostModel(
             "Facebook",

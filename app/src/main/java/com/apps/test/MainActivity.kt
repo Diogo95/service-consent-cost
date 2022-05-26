@@ -12,7 +12,6 @@ import com.apps.test.domain.CalculateAllConsentsCostImplementation
 import com.apps.test.domain.CalculateConsentCostImplementation
 import com.apps.test.domain.RemoveDisabledConsentsImplementation
 import com.apps.test.domain.RetrieveEnabledConsentsImplementation
-import com.apps.test.domain.model.CostsModel
 import com.apps.test.domain.rules.BankingSnoopy
 import com.apps.test.domain.rules.GoodCitizen
 import com.apps.test.domain.rules.WhyDoYouCare

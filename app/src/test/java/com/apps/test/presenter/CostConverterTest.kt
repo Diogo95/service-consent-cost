@@ -1,6 +1,6 @@
 package com.apps.test.presenter
 
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 import com.apps.test.domain.model.ServiceCostModel
 import org.junit.Assert.assertEquals
 import org.junit.Test
@@ -18,7 +18,7 @@ internal class CostConverterTest{
             10
         )
 
-        val cost = CostsModel(
+        val cost = ServicesCostModel(
             listOf(
                 ServiceCostModel(
                     "Facebook",

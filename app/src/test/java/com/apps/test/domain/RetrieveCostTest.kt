@@ -2,7 +2,7 @@ package com.apps.test.domain
 
 import com.apps.test.data.ServiceData
 import com.apps.test.data.ServicesData
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 import com.apps.test.domain.model.ServiceCostModel
 import com.apps.test.fake.*
 import com.apps.test.interactor.RetrieveCostService
@@ -16,7 +16,7 @@ internal class RetrieveCostTest{
 
     @Test
     fun `when receives a list of consents and an user interaction returns the cost of each service and their total`(){
-        val expected = CostsModel(
+        val expected = ServicesCostModel(
             listOf(
                 ServiceCostModel("Facebook", 3),
                 ServiceCostModel("Google", 6)
@@ -58,7 +58,7 @@ internal class RetrieveCostTest{
                 )
             )
         )
-        val costs = CostsModel(
+        val costs = ServicesCostModel(
             listOf(
                 ServiceCostModel("Facebook", 3),
                 ServiceCostModel("Google", 6)

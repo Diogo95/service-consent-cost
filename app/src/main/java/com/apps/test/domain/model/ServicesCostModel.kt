@@ -1,6 +1,6 @@
 package com.apps.test.domain.model
 
-data class CostsModel(
+data class ServicesCostModel(
     val serviceCost: List<ServiceCostModel>
 ){
     val totalCost = run {

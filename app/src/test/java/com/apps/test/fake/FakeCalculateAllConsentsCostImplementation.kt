@@ -2,12 +2,12 @@ package com.apps.test.fake
 
 import com.apps.test.data.ServicesData
 import com.apps.test.domain.CalculateAllConsentsCost
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 
 class FakeCalculateAllConsentsCostImplementation(
-    private val costs: CostsModel = CostsModel(emptyList())
+    private val costs: ServicesCostModel = ServicesCostModel(emptyList())
 ): CalculateAllConsentsCost {
-    override fun call(appliedConsents: ServicesData): CostsModel {
+    override fun call(appliedConsents: ServicesData): ServicesCostModel {
         return costs
     }
 }

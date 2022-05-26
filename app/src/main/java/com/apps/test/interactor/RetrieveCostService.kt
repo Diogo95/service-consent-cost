@@ -2,7 +2,7 @@ package com.apps.test.interactor
 
 import com.apps.test.data.CMPGateway
 import com.apps.test.domain.CalculateAllConsentsCost
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 import com.apps.test.domain.RemoveDisabledConsents
 import com.apps.test.domain.RetrieveEnabledConsents
 import com.usercentrics.sdk.UsercentricsServiceConsent
@@ -15,7 +15,7 @@ class RetrieveCostService(
     private val removeNonConsentServices: RemoveDisabledConsents
 ): RetrieveCost {
 
-    override fun call(userInteraction: UsercentricsUserInteraction, consents: List<UsercentricsServiceConsent>): CostsModel {
+    override fun call(userInteraction: UsercentricsUserInteraction, consents: List<UsercentricsServiceConsent>): ServicesCostModel {
         val enabledConsents = retrieveEnabledConsents.getConsents(userInteraction, consents)
         val serviceData = cmpGateway.getCMPDate()
         val appliedConsents = removeNonConsentServices.call(serviceData, enabledConsents)

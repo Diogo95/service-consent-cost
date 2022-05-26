@@ -1,9 +1,9 @@
 package com.apps.test.presenter
 
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 
 class CostConverter: BaseConverter {
-    override fun convertCost(costs: CostsModel): CostPresenter {
+    override fun convertCost(costs: ServicesCostModel): CostPresenter {
         val presenter = StringBuilder()
         costs.serviceCost.forEach {
             presenter.append("${it.name} = ${it.cost}\n")

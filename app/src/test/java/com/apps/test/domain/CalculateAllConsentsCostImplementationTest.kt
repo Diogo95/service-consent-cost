@@ -2,7 +2,7 @@ package com.apps.test.domain
 
 import com.apps.test.data.ServiceData
 import com.apps.test.data.ServicesData
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 import com.apps.test.domain.model.ServiceCostModel
 import com.apps.test.fake.FakeCalculateConsentsCostImplementation
 import org.junit.Assert.assertEquals
@@ -13,7 +13,7 @@ internal class CalculateAllConsentsCostImplementationTest{
 
     @Test
     fun `call() - when it receives a serviceData returns a costModel object`(){
-        val expected = CostsModel(
+        val expected = ServicesCostModel(
             listOf(
                 ServiceCostModel(
                     "Facebook",

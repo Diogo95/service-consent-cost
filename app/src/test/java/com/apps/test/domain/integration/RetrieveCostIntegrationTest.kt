@@ -5,7 +5,7 @@ import com.apps.test.data.ServiceData
 import com.apps.test.data.ServicesCost
 import com.apps.test.data.ServicesData
 import com.apps.test.domain.*
-import com.apps.test.domain.model.CostsModel
+import com.apps.test.domain.model.ServicesCostModel
 import com.apps.test.domain.model.ServiceCostModel
 import com.apps.test.domain.rules.BankingSnoopy
 import com.apps.test.domain.rules.GoodCitizen
@@ -20,7 +20,7 @@ internal class RetrieveCostIntegrationTest {
 
     @Test
     fun `when the user accept all and there is consented services consents returns the cost of the services and their total`(){
-        val expected = CostsModel(
+        val expected = ServicesCostModel(
             listOf(
                 ServiceCostModel("Facebook", 3),
                 ServiceCostModel("Google", 5)

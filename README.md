@@ -44,3 +44,10 @@ Learn more
 
 - For a full overview of our SDK, please see our dedicated [documentation](https://docs.usercentrics.com/cmp_in_app_sdk/latest/).
 - For more information and products, check out our [website](https://usercentrics.com).
+
+Calculate cost
+------------
+
+- Click on the Show First Layer Button
+- Consent with the permissions that you want
+- View the total cost in the label on the main screen and the cost of each service in the console
